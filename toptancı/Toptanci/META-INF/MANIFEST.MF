@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Toptanci
+Bundle-SymbolicName: Toptanci
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Toptanci.jar,
+ DEDEOĞLU/workspace/Toptanci/kütüphaneler/jcalendar-1.3.3.jar,
+ DEDEOĞLU/workspace/Toptanci/config/syntheticaWhiteVision.jar
+Export-Package: domain,
+ kullanici_arayuzu,
+ otomasyon,
+ test

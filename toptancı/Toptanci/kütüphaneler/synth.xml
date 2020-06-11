@@ -1,0 +1,23 @@
+﻿<extension
+         point="org.eclipse.core.runtime.products"
+         id="product">
+      <product
+            name="%productName"
+            application="org.eclipse.ui.examples.rcp.browser.app">
+         <property
+               name="appName"
+               value="%swtAppName"/>
+         <property
+               name="windowImages"
+               value="icons/eclipse.gif,icons/eclipse32.gif"/>
+         <property
+               name="aboutText"
+               value="%aboutText"/>
+         <property
+               name="aboutImage"
+               value="icons/eclipse_lg.gif"/>
+         <property
+               name="preferenceCustomization"
+               value="r21presentation.ini"/>
+      </product>
+   </extension>
